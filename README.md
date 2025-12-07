@@ -18,7 +18,7 @@ npm run demo
 git clone <repo>
 cd rag-context-window
 docker build -t rag-context .
-docker run -e ANTHROPIC_API_KEY='sk-...' -e OPENAI_API_KEY='sk-...' rag-context
+docker run -e OPENAI_API_KEY='sk-...' rag-context
 ```
 
 ## What Each Solution Does
@@ -40,6 +40,4 @@ npm run demo:multiagent  # multi-agent orchestration
 ```
 
 ## API Keys
-
-- **Anthropic**: https://console.anthropic.com → required for all demos
 - **OpenAI**: https://platform.openai.com → only needed for semantic cache (Solution 3)
