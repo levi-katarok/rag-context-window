@@ -1,0 +1,25 @@
+{
+  "name": "rag-context-window",
+  "version": "1.0.0",
+  "description": "RAG Context Window Management - 4 solutions",
+  "type": "module",
+  "scripts": {
+    "demo": "npx tsx rag-context.ts",
+    "demo:buffer": "npx tsx rag-context.ts buffer",
+    "demo:ordering": "npx tsx rag-context.ts ordering",
+    "demo:cache": "npx tsx rag-context.ts cache",
+    "demo:multiagent": "npx tsx rag-context.ts multiagent"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.77.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
